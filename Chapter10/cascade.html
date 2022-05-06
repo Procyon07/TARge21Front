@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How CSS rules cascade</title>
+    <style type="text/css">
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        i {
+            color: green;
+        }
+        b {
+            color: pink
+        }
+        p b {
+            color: blue
+        }
+
+        p#intro {
+            font-size: 100%;
+        }
+        p {
+            font-size: 75%;
+        }
+    </style>
+</head>
+<body>
+    <h1>The cottage garden</h1>
+    <p id="intro">the <i>cottage garden</i> is a distinct type of garden which is really something.</p>
+    <b>The cottage garden originates in <a href="">England</a> altough they were reinvented in 1860i5676fgh</b>
+    <p>the earliest <b>cottage gardens were more practical </b> than akldfjgdklfm</p>
+</body>
+</html>
