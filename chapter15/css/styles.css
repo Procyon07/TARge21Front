@@ -1,0 +1,17 @@
+@import url("tables.css");
+@import url("typography.css");
+
+body {
+    color: #666666;
+    background-color:cyan;
+    text-align : center;
+}
+
+#page {
+    width: 600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    padding: 20px;
+}
